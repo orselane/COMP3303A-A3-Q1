@@ -34,4 +34,5 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 ('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
 ('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
 
-## Video:
+## Video link
+https://youtu.be/jSJ2Gls8GnI
