@@ -1,6 +1,24 @@
 # COMP3303A-A3-Q1
 Repo for COMP3303A Assignment 3 Question 1
 
+## Setup
+1. On terminal at project root:
+- python -m venv venv
+- venv/scripts/activate (windows)
+- pip install psycopg2
+- pip freeze > requirements.txt
+2. Make your IDE use the virtual environment you just created.
+3. Setup postgres database with initial data
+4. Create database.ini with (and modify with your real values):
+```
+[postgresql]
+host=localhost
+database=databaseName
+user=YourUsername
+password=YourPassword
+```
+5. Run connect.py to test your credentials (Should show: Connected to PostgreSQL server.).
+
 ## Initial data
 CREATE TABLE students(
 	student_id serial PRIMARY KEY,

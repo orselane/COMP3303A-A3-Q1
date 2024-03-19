@@ -1,3 +1,7 @@
+from config import load_config
+from connect import connect
+
+
 def get_all_students():
     """
     Retrieves and displays all records from the students table.
@@ -36,4 +40,4 @@ def delete_student(student_id):
 
 
 if __name__ == '__main__':
-    print('PyCharm')
+    sql_conn = connect(load_config())
